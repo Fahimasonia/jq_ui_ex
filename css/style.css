@@ -1,0 +1,41 @@
+#draggable { width: 150px; 
+	height: 150px;
+	 padding: 0.5em; }
+
+	 /*selectable*/
+	 #feedback { font-size: 1.4em; }
+  #selectable .ui-selecting { background: #FECA40; }
+  #selectable .ui-selected { background: #F39814; color: white; }
+  #selectable { list-style-type: none; margin: 0; padding: 0; width: 60%; }
+  #selectable li { margin: 3px; padding: 0.4em; font-size: 1.4em; height: 18px; }
+/*select menu*/
+fieldset {
+      border: 0;
+    }
+    label {
+      display: block;
+      margin: 30px 0 0 0;
+    }
+    .overflow {
+      height: 200px;
+    }
+    /*tooltip*/
+    label {
+    display: inline-block;
+    width: 5em;
+  }
+  /*sortable*/
+    #sortable { list-style-type: none;
+     margin: 0; 
+     padding: 0;
+      width: 60%; }
+  #sortable li { margin: 0 3px 3px 3px; 
+  	padding: 0.4em; 
+  	padding-left: 1.5em;
+  	 font-size: 1.4em;
+  	  height: 18px; }
+  #sortable li span { position: absolute; 
+  	margin-left: -1.3em; }
+  	/*resizeable*/
+  	#resizable { width: 150px; height: 150px; padding: 0.5em; }
+  #resizable h3 { text-align: center; margin: 0; }
